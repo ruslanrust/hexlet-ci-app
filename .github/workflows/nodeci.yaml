@@ -8,7 +8,7 @@ jobs:
                         - uses: actions/setup-node@v2
                           with:
                                   node-version: 14.x
+                                  cache: npm
                         - run: make setup
-                        - run: make start
                         - run: make test
                         - run: make lint
