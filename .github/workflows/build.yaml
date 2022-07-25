@@ -1,4 +1,4 @@
-name: build
+name: NodeCI
 on: push
 jobs:
 	build:
